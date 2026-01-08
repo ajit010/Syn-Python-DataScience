@@ -1,4 +1,6 @@
 Based on Variable Assignment, Data Types, Operators, Strings 
+
+Part 1 --
     
     
 1. Declare and print name and age
@@ -30,3 +32,39 @@ Based on Variable Assignment, Data Types, Operators, Strings
 14. Calculate square and cube of a number
 
 15. Convert seconds to hours, minutes, seconds
+
+
+
+Part 2 --
+
+
+
+1. Mention all data-types in a single program with their output
+
+2. Assignments and Reassignments values to a variable
+
+3. Deleting a variable, swapping values of a variable
+
+4. Multiple values assignment
+
+5. Slicing of Strings - 0:5 , 3:8 and 7:12
+
+6. find out length of string , upper and lower case using len() , upper() and lower()
+    
+7. Write a program to create two lists of same data types and use concatenation 
+
+8. Write a program to create two lists of different data types and use concatenation
+
+9. Write a program to reverse elements in a list
+
+10. Write a program to create a nested list and access few elements from it.
+
+11. Write a program to sort all the elements in a list.
+
+12. use string methods - split(), join() and replace() on a string
+
+13. Write a program to create sum of elements in a list
+
+14. Create strings - single quotes, double quotes and multi-line strings (triple-quotes)
+
+15. Create two strings and use concatenation on them
