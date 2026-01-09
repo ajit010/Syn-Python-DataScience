@@ -1,0 +1,208 @@
+Day 2 :
+
+Part 1 --
+  
+  
+1. Write a program to use all arithmetic operators for addition, subtraction, multiplication, Divison, Modulus and exponent
+
+2. Write a program for comparison, logical and assignments operators ---
+
+3. Check if a Number is Positive, Negative, or Zero
+
+4. Check if a no. is even or odd
+
+5. Write a program using "if-else" "if-elseif-else" and nested-if statements 
+
+  -- consider three different scenarios ..
+ 
+ 
+6. Write a program to predict a leap year or not ...
+
+7. Find the Largest Number Among Three Numbers 
+
+8. Develop a program that calculates the factorial of a number using a while loop.
+
+9. Find the type of Triangle (Isosceles, Equilateral or Scalene)
+
+10. Convert a percantage (numeric) grade to letter grade
+
+11. Write a program to print all even numbers between 1 and 50 using a for loop.
+
+12. Write a program to print the reverse of a given number using a while loop.
+
+13.  Write a program to find the sum of all digits in a given number using a while loop. ---
+
+14. Develop a program that counts the number of vowels in a given string using a for loop and continue statement.
+
+15. Write a program to skip Even Numbers and Print Numbers Until 10
+
+16. Create a program to print all numbers between 1 and 100 that are not divisible by 2 or 3 using a for loop and continue statement.
+
+
+  Part 2 -- Functions and Modules  ::
+
+
+1. Create a 'greet' function in Python
+
+>> Solution :
+    
+ # Create a function in Python
+
+def greet():
+    print("Hello from a function!")
+
+greet()
+
+
+# Simple Example with an Argument:
+
+
+def greet(name):         # ← 'name' is a parameter
+    print("Hello", name)
+
+greet("Aditya")          # ← "Aditya" is the argument
+
+
+2. Create a function with variable length of arguments
+
+>> Solution :
+
+# Function with Variable-Length Arguments
+
+def print_names(*names):
+    for name in names:
+        print(name)
+
+print_names("Alice", "Bob", "Charlie")
+
+
+3. Return multiple values from a function 
+
+>> Solution :
+    
+    # Return Multiple Values from a Function
+
+def calculate(a, b):
+    return a + b, a * b
+
+add, multiply = calculate(5, 3)
+print("Sum:", add)
+print("Product:", multiply)
+
+
+
+4. Create a function with a default argument
+
+>> Solution :
+    
+    # Function with Default Argument
+
+def greet(name="Guest"):
+    print("Hello,", name)
+
+greet()
+greet("Aditya")
+
+
+
+5. Create a Recursive Function :
+
+def factorial(n):
+    if n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+print("Factorial:", factorial(5))
+
+
+6. Assign a Different Name to a Function and Call It
+
+def say_hello():
+    print("Hello!")
+
+new_greet = say_hello
+new_greet()
+
+
+
+
+
+
+Task 1: Mini Calculator (Menu-Driven)
+
+Topics Covered:
+
+Functions (with default & variable arguments)
+
+Conditional statements
+
+Arithmetic operators
+
+Loops (optional for repeated usage)
+
+Description:
+Build a calculator with options for:
+
+1. Addition
+
+2. Subtraction
+
+3. Multiplication
+
+4. Division
+
+5. Exponent
+
+6. Modulus
+
+(Keep the 7th option as Exit)
+
+Let the user choose an operation from a menu and input two numbers.
+
+Goal: Allow repeated calculations until the user exits.
+
+
+Guide to Create  :
+
+1. You can create 6-7 functions for each arithmetic operation ..
+
+2. Use while Loop to print out menu Options
+
+3. Utilise if else options to provide resulted operation based on choice ...
+
+
+
+
+
+Task 2:  ATM Simulation (Menu-Driven)
+
+Features:
+
+Login with PIN
+
+Withdraw, deposit, check balance
+
+Simple authentication
+
+
+
+Concepts Used:
+
+While loops
+
+Conditions
+
+Functions with parameters
+
+Simple state management
+
+
+  
+
+
+
+
+  
+
+
+17. Create a program to print prime numbers for a given range.
