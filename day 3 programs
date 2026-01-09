@@ -1,0 +1,63 @@
+1. Create a 'greet' function in Python
+
+2. Create a function with variable length of arguments
+
+3. Return multiple values from a function
+
+4. Create a function with a default argument
+
+
+Task -- Show Database connection with Python Program (locally) and remotely as well ...
+
+User-Modules  (Create a file for module and use "main.py" to import that module)
+
+1. Temperature Converter: Write a Python program that converts temperature from Celsius to Fahrenheit and vice versa. Use a custom module to handle the conversion functions.
+
+
+2. Simple Calculator: Create a simple calculator program that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Implement each operation in separate functions within a custom module.
+
+3. Todo List Manager: Develop a todo list manager program that allows users to add, delete, and view tasks. Use a custom module to handle the todo list operations.
+
+4. Simple Chatbot: Build a simple chatbot program that responds to user input with predefined responses. Use the random module to randomize responses.
+
+
+
+   Classes and Objects ::
+  
+  1. Create a class called `Rectangle` with attributes `length` and `width`. Include methods to calculate the area and perimeter of the rectangle.
+
+Solution :
+
+# Rectangle Class
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+# Example usage
+rect = Rectangle(10, 5)
+print("Area:", rect.area())
+print("Perimeter:", rect.perimeter())
+
+2. Create a class called `Employee` with attributes `name`, `age`, and `salary`. Include a method to display the details of the employee.
+
+3. Create a class called `Car` with attributes `make`, `model`, and `year`. Include a method to display the details of the car.
+
+4. Create a class called `Circle` with attribute `radius`. Include methods to calculate the area and circumference of the circle.
+
+5. Create a class called `Student` with attributes `name`, `age`, and `grade`. Include a method to display the details of the student.
+
+
+
+
+
+
+
+  
