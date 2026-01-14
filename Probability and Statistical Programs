@@ -1,0 +1,99 @@
+Probability and Statistical Programs :
+        
+        # Classical Probability
+
+# Probability of getting even number on a die
+favorable = 3
+total = 6
+
+probability = favorable / total
+print("Probability:", probability)
+
+
+# Empirical Probability
+
+import random
+
+trials = 10000
+count = 0
+
+for _ in range(trials):
+    if random.randint(1, 6) % 2 == 0:
+        count += 1
+
+print("Empirical Probability:", count / trials)
+
+
+# Conditional Probability
+
+students = [
+    {"gender": "female", "pass": True},
+    {"gender": "male", "pass": False},
+    {"gender": "female", "pass": True},
+    {"gender": "male", "pass": True},
+]
+
+passed = [s for s in students if s["pass"]]
+female_and_pass = [s for s in students if s["gender"]=="female" and s["pass"]]
+
+print("P(Female | Pass) =", len(female_and_pass)/len(passed))
+
+
+# Bayes' Theorem
+
+# Disease testing example
+P_D = 0.01
+P_Pos_given_D = 0.99
+P_Pos_given_noD = 0.05
+
+P_Pos = (P_Pos_given_D * P_D) + (P_Pos_given_noD * (1 - P_D))
+
+P_D_given_Pos = (P_Pos_given_D * P_D) / P_Pos
+
+print("P(Disease | Positive Test):", P_D_given_Pos)
+
+
+# Distributions and Z-Scores
+
+# Uniform Distribution
+
+import numpy as np
+
+data = np.random.uniform(1, 10, 1000)
+print("Mean:", np.mean(data))
+
+
+# Normal Distribution
+
+data = np.random.normal(50, 10, 1000)
+
+print("Mean:", np.mean(data))
+print("Std Dev:", np.std(data))
+
+
+# Binomial Distribution
+
+from scipy.stats import binom
+
+n = 10
+p = 0.5
+
+print(binom.pmf(5, n, p))
+
+
+# Poisson Distribution
+
+from scipy.stats import poisson
+
+lam = 3
+print(poisson.pmf(2, lam))
+
+
+# Z-Score Calculation
+
+x = 85
+mean = 70
+std = 10
+
+z = (x - mean) / std
+print("Z-score:", z)
