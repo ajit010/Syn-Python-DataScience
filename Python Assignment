@@ -1,0 +1,23 @@
+Python Assignment ::
+                
+                ( Creating Frontend is Optional .. But you need to use Fast API to Create APIs and integration with backend DB)
+                (Need to do it first on Local system and then deploy using VM and Cloud DB as well)
+                
+1. Employee Management System:
+•        Create a Python program that manages employee records.
+•        Utilize basic Python concepts like variables, data types, and flow control.
+•        Implement functions to perform CRUD (Create, Read, Update, Delete) operations on employee records.
+•        Organize functions into modules and packages for better code organization.
+•        Implement a class for representing an employee with attributes and methods.
+•        Integrate the program with an RDBMS (Relational Database Management System) like MySQL using libraries such as mysql-connector
+•        Use debugging techniques to identify and fix any errors or issues.
+
+
+2. Online Shopping System:
+•        Develop a Python program for an online shopping platform.
+•        Implement flow control to manage user interactions such as browsing products, adding items to the cart, and checking out.
+•        Define functions to handle shopping operations like adding products, removing products, and calculating the total bill.
+•        Organize code into modules and packages based on functionality.
+•        Create classes to represent products, shopping carts, and orders with appropriate attributes and methods.
+•        Connect the application to an RDBMS to store product information and order history securely.
+•        Debug the program to ensure it functions correctly and handles errors gracefully
